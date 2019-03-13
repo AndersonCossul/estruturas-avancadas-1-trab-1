@@ -14,15 +14,11 @@ public class BinarySearchTreeTest {
 		bst.insert(5, 5);
 		bst.insert(7, 7);
 		
-		System.out.println(bst.toString());
-		
-		System.out.println("Em pré-ordem:");
-		bst.preOrder();
-		System.out.println("\nEm pós-ordem:");
-		bst.postOrder();
-		System.out.println("\nEm ordem:");
-		bst.inOrder();
-		System.out.println("\nEm nível:");
-		bst.levelOrder();
+		// System.out.println("Count nodes: " + bst.countNodes());
+		// System.out.println("Count internal nodes: " + bst.countInternalNodes());
+		// System.out.println("countLeaves: " + bst.countLeaves());
+		// System.out.println("degree: " + bst.degree(4));
+		System.out.println("degreeTree: " + bst.degreeTree());
+		//System.out.println(bst.toString());
 	}
 }
