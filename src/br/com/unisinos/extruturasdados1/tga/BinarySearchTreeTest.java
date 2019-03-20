@@ -14,11 +14,16 @@ public class BinarySearchTreeTest {
 		bst.insert(5, 5);
 		bst.insert(7, 7);
 		
-		// System.out.println("Count nodes: " + bst.countNodes());
-		// System.out.println("Count internal nodes: " + bst.countInternalNodes());
-		// System.out.println("countLeaves: " + bst.countLeaves());
-		// System.out.println("degree: " + bst.degree(4));
-		System.out.println("degreeTree: " + bst.degreeTree());
-		//System.out.println(bst.toString());
+//		System.out.println("Count nodes: " + bst.countNodes());
+//		System.out.println("Count internal nodes: " + bst.countInternalNodes());
+//		System.out.println("countLeaves: " + bst.countLeaves());
+//		System.out.println("degree: " + bst.degree(4));
+//		System.out.println("degreeTree: " + bst.degreeTree());
+//		System.out.println(bst.toString());
+//		System.out.println("depth: " + bst.depth(-2));
+//		System.out.println("height: " + bst.height(4));
+//		System.out.println("heightTree: " + bst.heightTree());
+//		System.out.println("ancestors: " + bst.ancestors(0));
+//		System.out.println("descendents: " + bst.descendents(4));
 	}
 }
